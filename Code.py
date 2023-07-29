@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from skimage.feature import hog
 
 # Set the paths to the test and train folders
-dataset_path = "/content/drive/MyDrive/dataset"
+dataset_path = "/path/to/dataset"
 train_folder = os.path.join(dataset_path, "train")
 test_folder = os.path.join(dataset_path, "test")
 
